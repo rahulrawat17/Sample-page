@@ -1,0 +1,132 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    background: white;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.left-txt {
+    display: flex;
+    /* padding: 1rem; */
+    margin: 0 2rem;
+}
+
+.right-side {
+    margin: auto 2rem;
+}
+
+.resume-btn {
+    background: skyblue;
+    border-radius: 2rem;
+    color: white;
+    padding: 0.5rem;
+    border: unset;
+}
+
+.header-txt1 {
+    color: orange;
+    margin-right: 1rem;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.header-txt2 {
+    color: black;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.hero-area {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(0, 195, 255) 100%);
+    /* height: 18rem; */
+    padding: 2rem;
+}
+
+.hero-txt {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    p {
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .h1 {
+        font-size: 2rem;
+        font-weight: 300;
+        padding: 1rem;
+    }
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+    border: 5px solid skyblue;
+    border-radius: 1rem;
+
+    input {
+        width: 10rem;
+    }
+
+    select {
+        width: 10rem;
+    }
+}
+
+.search-btn {
+    color: white;
+}
+
+.course-container {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.course-img {
+    /* height: 5rem; */
+    /* width: auto; */
+    width: 10rem;
+    height: 10rem;
+    border-radius: 2rem;
+    margin: 1rem auto;
+}
+
+.card-body {
+    margin: auto !important;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.companies-txt {
+    margin: 2rem;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .course-container {
+        flex-direction: column;
+    }
+} */
+
+@media only screen and (max-width: 1000px) {
+    .course-container {
+        flex-direction: column;
+    }
+}
