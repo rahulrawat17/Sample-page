@@ -131,11 +131,39 @@ body {
   margin: auto;
 }
 
+.dflex {
+    display: flex;
+}
+
 @media only screen and (max-width: 1000px) {
   .course-container {
     flex-direction: column;
   }
   .search-section {
     flex-direction: column;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .card-child {
+    flex-direction: column;
+  }
+  .card-technologies {
+    flex-direction: column;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-side {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  .left-txt {
+    padding: 1rem;
+  }
+  .job-code{
+    height: 3rem;
   }
 }
