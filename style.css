@@ -4,17 +4,21 @@
   background: white;
   margin: 1rem;
 }
+
 body {
   margin: 0 !important;
   padding: 0 !important;
 }
+
 .left-txt {
   display: flex;
   margin: 0 2rem;
 }
+
 .right-side {
   margin: auto 2rem;
 }
+
 .resume-btn {
   background: skyblue;
   border-radius: 2rem;
@@ -23,30 +27,33 @@ body {
   border: unset;
   width: fit-content;
 }
+
 .header-txt1 {
   color: orange;
   margin-right: 1rem;
   margin-top: auto !important;
   margin-bottom: auto !important;
 }
+
 .header-txt2 {
   color: black;
   margin-top: auto !important;
   margin-bottom: auto !important;
 }
+
 .hero-area {
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgb(0, 195, 255) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgb(0, 195, 255) 100%);
   padding: 2rem;
 }
+
 .hero-txt {
   display: flex;
   flex-direction: column;
   padding: 2rem;
+
   p {
     width: fit-content;
     margin: auto;
@@ -54,12 +61,14 @@ body {
     color: white;
     font-family: sans-serif;
   }
+
   .h1 {
     font-size: 2rem;
     font-weight: 300;
     padding: 1rem;
   }
 }
+
 .search-section {
   display: flex;
   justify-content: center;
@@ -70,16 +79,20 @@ body {
   background-color: white;
   border: 5px solid skyblue;
   border-radius: 1rem;
+
   input {
     width: 10rem;
   }
+
   select {
     width: 10rem;
   }
 }
+
 .search-btn {
   color: white;
 }
+
 .course-container {
   display: flex;
   flex-direction: column;
@@ -88,15 +101,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .course-img {
   width: 10rem;
   height: 10rem;
   border-radius: 2rem;
   margin: 1rem auto;
 }
+
 .card-body {
   margin: auto !important;
 }
+
 .card {
   border-radius: 1rem;
   width: 100%;
@@ -127,43 +143,96 @@ body {
 
 .job-code {
   text-align: center;
-  width: 20rem;
-  margin: auto;
+  /* width: 20rem; */
+  margin: auto 2rem;
 }
 
 .dflex {
-    display: flex;
+  display: flex;
 }
 
 @media only screen and (max-width: 1000px) {
   .course-container {
     flex-direction: column;
+    margin: 1rem;
   }
+
+  .course-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    margin: auto;
+  }
+
   .search-section {
     flex-direction: column;
   }
+
   .card {
-    flex-direction: column;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
   }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-subtitle {
+    font-size: 0.8;
+  }
+
   .card-child {
+    /* flex-direction: column; */
+  }
+
+  .card-technology-text {
+
+  }
+
+  .right-card-child {
     flex-direction: column;
   }
+
   .card-technologies {
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
+
+  .card-technology-text {
+    width: 45%;
+    margin-bottom: 0rem;
+    font-size: 0.8rem;
+    line-height: normal;
+    padding: 0rem 0.5rem;
+  }
+
   .header {
     display: flex;
     flex-direction: column;
   }
+
   .right-side {
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
   }
+
   .left-txt {
     padding: 1rem;
+    margin: auto;
   }
-  .job-code{
+
+  .job-code {
     height: 3rem;
   }
+
+
+.card-child {
+  margin: 0.5rem;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
 }
