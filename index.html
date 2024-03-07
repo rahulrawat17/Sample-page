@@ -41,11 +41,18 @@
         </div>
         <div class="search-section">
           <input
-            type="email"
             class="form-control"
-            id="exampleFormControlInput1"
+            list="datalistOptions"
+            id="exampleDataList"
             placeholder="Skill, Company, Tag ..."
           />
+          <datalist id="datalistOptions">
+            <option value="San Francisco"></option>
+            <option value="New York"></option>
+            <option value="Seattle"></option>
+            <option value="Los Angeles"></option>
+            <option value="Chicago"></option>
+          </datalist>
           <select class="form-select" aria-label="Default select example">
             <option selected>All Categories</option>
             <option value="1">Software Developer</option>
@@ -86,78 +93,11 @@
                 </div>
               </div>
             </div>
-            <div class="card-child">
-                <div class="job-code">Job Code-073</div>
-                <div class="job-code">
-                    <button class="btn btn-warning">Apply</button>
-                </div>
-            </div>
-          </div>
-          <!-- <div class="card">
-            <img
-              class="course-img"
-              src="https://fastly.picsum.photos/id/593/200/300.jpg?hmac=q_vr9ioph2Tk-PMmB5PpX7uS2nSp2wxpYTktjucc1yQ"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Netflix</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">8 jobs</h6>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              class="course-img"
-              src="https://fastly.picsum.photos/id/593/200/300.jpg?hmac=q_vr9ioph2Tk-PMmB5PpX7uS2nSp2wxpYTktjucc1yQ"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Apple</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">9 jobs</h6>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              class="course-img"
-              src="https://fastly.picsum.photos/id/593/200/300.jpg?hmac=q_vr9ioph2Tk-PMmB5PpX7uS2nSp2wxpYTktjucc1yQ"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Slack</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">2 jobs</h6>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              class="course-img"
-              src="https://fastly.picsum.photos/id/593/200/300.jpg?hmac=q_vr9ioph2Tk-PMmB5PpX7uS2nSp2wxpYTktjucc1yQ"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Slack</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">2 jobs</h6>
-            </div>
-          </div> -->
-          <div class="card">
-            <div class="card-child">
-              <img
-                class="course-img"
-                src="https://fastly.picsum.photos/id/593/200/300.jpg?hmac=q_vr9ioph2Tk-PMmB5PpX7uS2nSp2wxpYTktjucc1yQ"
-              />
-
-              <div class="card-body">
-                <h5 class="card-title">Full Stack Engineer (Sample)</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">
-                  Apple • Internship • Las Vegas • $45 - $800 / hour
-                </h6>
-                <div class="card-technologies">
-                  <p class="card-technology-text">Software Development</p>
-                  <p class="card-technology-text">Web Services</p>
-                  <p class="card-technology-text">Node JS</p>
-                  <p class="card-technology-text">Express</p>
-                </div>
+            <div class="card-child right-card-child">
+              <div class="job-code">Job Code-073</div>
+              <div class="job-code">
+                <button class="btn btn-warning">Apply</button>
               </div>
-            </div>
-            <div class="card-child">
-                <div class="job-code">Job Code-073</div>
-                <div class="job-code">
-                    <button class="btn btn-warning">Apply</button>
-                </div>
             </div>
           </div>
           <div class="card">
@@ -180,11 +120,11 @@
                 </div>
               </div>
             </div>
-            <div class="card-child">
-                <div class="job-code">Job Code-073</div>
-                <div class="job-code">
-                    <button class="btn btn-warning">Apply</button>
-                </div>
+            <div class="card-child right-card-child">
+              <div class="job-code">Job Code-073</div>
+              <div class="job-code">
+                <button class="btn btn-warning">Apply</button>
+              </div>
             </div>
           </div>
           <div class="card">
@@ -207,11 +147,38 @@
                 </div>
               </div>
             </div>
+            <div class="card-child right-card-child">
+              <div class="job-code">Job Code-073</div>
+              <div class="job-code">
+                <button class="btn btn-warning">Apply</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
             <div class="card-child">
-                <div class="job-code">Job Code-073</div>
-                <div class="job-code">
-                    <button class="btn btn-warning">Apply</button>
+              <img
+                class="course-img"
+                src="https://fastly.picsum.photos/id/593/200/300.jpg?hmac=q_vr9ioph2Tk-PMmB5PpX7uS2nSp2wxpYTktjucc1yQ"
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Full Stack Engineer (Sample)</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Apple • Internship • Las Vegas • $45 - $800 / hour
+                </h6>
+                <div class="card-technologies">
+                  <p class="card-technology-text">Software Development</p>
+                  <p class="card-technology-text">Web Services</p>
+                  <p class="card-technology-text">Node JS</p>
+                  <p class="card-technology-text">Express</p>
                 </div>
+              </div>
+            </div>
+            <div class="card-child right-card-child">
+              <div class="job-code">Job Code-073</div>
+              <div class="job-code">
+                <button class="btn btn-warning">Apply</button>
+              </div>
             </div>
           </div>
         </div>
