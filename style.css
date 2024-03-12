@@ -332,6 +332,43 @@ body {
   }
 }
 
+
+.modal-header {
+  justify-content: space-between;
+}
+
+.input-group {
+  margin: 1rem;
+  width: auto;
+
+  div {
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;;
+  }
+}
+
+.modal-header {
+  button {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.input-group {
+  button {
+    border-radius: 0;
+    padding: 0rem;
+  }
+  p {
+    margin: auto !important;
+  }
+}
+
+
+.modal-body {
+  margin: auto;
+}
+
 @media only screen and (max-width: 1000px) {
   .course-container {
     flex-direction: column;
