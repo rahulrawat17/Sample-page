@@ -364,9 +364,32 @@ body {
   }
 }
 
-
 .modal-body {
   margin: auto;
+}
+
+.modal-footer {
+  border: none;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-footer {
+  button {
+    width: 90%;
+    margin: auto;
+    border-radius: 0.5rem;
+  }
+}
+
+.upload-cv-btn {
+  border-radius: 0.5rem !important;
+}
+
+.modal-title {
+  color: #1A0299;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -476,4 +499,12 @@ body {
     font-size: 0.7rem;
   }
 
+  .input-group {
+    width: unset;
+    flex-wrap: unset;
+  }
+
+  .upload-cv-btn {
+    padding: 0.2rem !important;
+  }
 }
